@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="com.jrtech.android.widget.mNote.IMNoteStationaryMenu.Menu"/>
+
+        <variable name="model" type="com.jrtech.android.widget.mNote.StationaryMenuViewModel"/>
+        <variable name="mNoteStationaryMenu" type="com.jrtech.android.widget.mNote.IMNoteStationaryMenu"/>
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#FDFBFA"
+        android:orientation="horizontal"
+        android:paddingBottom="3dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="3dip">
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="@{()->mNoteStationaryMenu.onMenuClicked(Menu.ABC)}"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_mnote_menu_abc"
+            app:enable="@{model.abcEnable}"/>
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="@{()->mNoteStationaryMenu.onMenuClicked(Menu.TYPE)}"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_mnote_menu_type"
+            app:enable="@{model.typeEnable}"/>
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="@{()->mNoteStationaryMenu.onMenuClicked(Menu.ADD_COMMENT)}"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_mnote_menu_add_comment"
+            app:enable="@{model.addCommentEnable}"/>
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="@{()->mNoteStationaryMenu.onMenuClicked(Menu.INSERT)}"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_mnote_menu_insert"
+            app:enable="@{model.insertEnable}"/>
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="@{()->mNoteStationaryMenu.onMenuClicked(Menu.UNDO)}"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_mnote_menu_undo"
+            app:enable="@{model.undoEnable}"/>
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="@{()->mNoteStationaryMenu.onMenuClicked(Menu.REDO)}"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_mnote_menu_redo"
+            app:enable="@{model.redoEnable}"/>
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="@{()->mNoteStationaryMenu.onMenuClicked(Menu.KEY_BROAD)}"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_mnote_menu_key_borad"
+            app:enable="@{model.keyBoardEnable}"/>
+
+    </LinearLayout>
+</layout>

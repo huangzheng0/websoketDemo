@@ -6,9 +6,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.WebSocketListener;
 import websoket.android.jr.com.websoketdemo.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,11 +30,16 @@ public class MainActivity extends AppCompatActivity {
         mainBinding.webPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),WebActivity.class);
+                Intent intent = new Intent(v.getContext(), WebActivity.class);
                 startActivity(intent);
             }
         });
-
-
+        mainBinding.monoteMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MNoteWindow window = new MNoteWindow(MainActivity.this);
+                window.show();
+            }
+        });
     }
 }

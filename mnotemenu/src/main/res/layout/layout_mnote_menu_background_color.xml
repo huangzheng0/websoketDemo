@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        style="@style/mnote_menu_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip">
+
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="35dip"
+                    android:clickable="true"
+                    android:layout_height="35dip"
+                    android:layout_gravity="center"
+                    android:background="@drawable/drawable_gray_ring"
+                    android:gravity="center"
+                    android:text="none"
+                    android:textSize="13sp"
+                />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                <com.jrtech.android.widget.mNote.ColorView
+                    style="@style/mnote_image_btn"
+                    app:color="#FECDD2"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                <com.jrtech.android.widget.mNote.ColorView
+                    style="@style/mnote_image_btn"
+                    app:color="#B5E5FB"/>
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                <com.jrtech.android.widget.mNote.ColorView
+                    style="@style/mnote_image_btn"
+                    app:color="#FB5149"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                <com.jrtech.android.widget.mNote.ColorView
+                    style="@style/mnote_image_btn"
+                    app:color="#83C686"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                <com.jrtech.android.widget.mNote.ColorView
+                    style="@style/mnote_image_btn"
+                    app:color="#FEF07E"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                <com.jrtech.android.widget.mNote.ColorView
+                    style="@style/mnote_image_btn"
+                    app:color="#E1E1E1"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                <com.jrtech.android.widget.mNote.ColorView
+                    style="@style/mnote_image_btn"
+                    app:color="#E0BFE6"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                <com.jrtech.android.widget.mNote.ColorView
+                    style="@style/mnote_image_btn"
+                    app:color="#FFFFFF"/>
+                <View style="@style/mnote_image_btn"
+                      android:background="@drawable/drawable_gray_ring"/>
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</layout>

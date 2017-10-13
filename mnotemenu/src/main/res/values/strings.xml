@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">MNoteMenu</string>
+
+    <string name="mnote_menu_title_text">Title</string>
+    <string name="mnote_menu_list_text">List</string>
+    <string name="mnote_menu_background_color_text">Background Color</string>
+    <string name="mnote_menu_text_color_text">Text Color</string>
+
+    <string name="mnote_menu_add_and_remove_cells_text">Add &#38; Remove Cells</string>
+    <string name="mnote_menu_insert_row_above">Insert Row Above</string>
+    <string name="mnote_menu_insert_row_Below">Insert Row Below</string>
+    <string name="mnote_menu_insert_column_left">Insert Column Left</string>
+    <string name="mnote_menu_insert_column_right">Insert Column Right</string>
+    <string name="mnote_menu_insert_delete_column">Delete Column(s)</string>
+    <string name="mnote_menu_insert_delete_row">Delete Row(s)</string>
+    <string name="mnote_menu_change_column_width">Change Column Width</string>
+    <string name="mnote_menu_merge_cells">Merge Cells</string>
+    <string name="mnote_menu_word_wrap">Word Wrap</string>
+
+    <string name="mnote_menu_freeze_unfreeze_text">Freeze/UnFreeze</string>
+    <string name="mnote_menu_freeze_row_column">Freeze Row(s) &#38; Column(s)</string>
+    <string name="mnote_menu_freeze_row">Freeze Row(s)</string>
+    <string name="mnote_menu_freeze_column">Freeze Column(s)</string>
+
+    <string name="mnote_menu_sort_text">Sort</string>
+    <string name="mnote_menu_sort_ascending_by_column_A">Sort Ascending By Column A</string>
+    <string name="mnote_menu_sort_descending_by_column_A">Sort Descending By Column A</string>
 </resources>

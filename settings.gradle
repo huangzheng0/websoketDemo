@@ -1,1 +1,1 @@
-include ':app', ':stomp', ':mnotemenu'
+include ':app', ':stomp', ':mnotemenu', ':databinding'

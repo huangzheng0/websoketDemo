@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        style="@style/mnote_menu_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    style="@style/mnote_image_btn"
+                    android:src="@drawable/selector_mnote_menu_title_h1"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    style="@style/mnote_image_btn"
+                    android:src="@drawable/selector_mnote_menu_title_h2"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    style="@style/mnote_image_btn"
+                    android:src="@drawable/selector_mnote_menu_title_h3"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    style="@style/mnote_image_btn"
+                    android:src="@drawable/selector_mnote_menu_title_h4"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    style="@style/mnote_image_btn"
+                    android:src="@drawable/selector_mnote_menu_title_h5"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    style="@style/mnote_image_btn"
+                    android:src="@drawable/selector_mnote_menu_title_h6"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    style="@style/mnote_image_btn"
+                    android:src="@drawable/selector_mnote_menu_title_body"/>
+            </FrameLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</layout>

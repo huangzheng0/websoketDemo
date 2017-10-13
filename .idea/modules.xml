@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databinding/databinding.iml" filepath="$PROJECT_DIR$/databinding/databinding.iml" />
       <module fileurl="file://$PROJECT_DIR$/mnotemenu/mnotemenu.iml" filepath="$PROJECT_DIR$/mnotemenu/mnotemenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/stomp/stomp.iml" filepath="$PROJECT_DIR$/stomp/stomp.iml" />
       <module fileurl="file://$PROJECT_DIR$/websoketDemo.iml" filepath="$PROJECT_DIR$/websoketDemo.iml" />
